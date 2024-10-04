@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "nightowl",
+	theme = "catppuccin",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
@@ -31,5 +31,24 @@ M.term = {
     },
 }
 
+
+M.nvdash = {
+    load_on_startup = true,
+
+    header = {
+    "                            ",
+    "     ▄▄         ▄ ▄▄▄▄▄▄▄   ",
+    "   ▄▀███▄     ▄██ █████▀    ",
+    "   ██▄▀███▄   ███           ",
+    "   ███  ▀███▄ ███           ",
+    "   ███    ▀██ ███           ",
+    "   ███      ▀ ███           ",
+    "   ▀██ █████▄▀█▀▄██████▄    ",
+    "     ▀ ▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀   ",
+    "                            ",
+    "     Powered By  eovim    ",
+    "                            ",
+    },
+}
 
 return M
