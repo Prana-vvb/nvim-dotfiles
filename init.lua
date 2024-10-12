@@ -37,6 +37,8 @@ vim.schedule(function()
 end)
 
 vim.wo.relativenumber = true
+vim.api.nvim_set_hl(0, 'LineNr', { fg = '#ffffff', bold = true })
+vim.api.nvim_set_hl(0, 'CursorLineNr', { fg = '#32CD32', bold = true })
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
